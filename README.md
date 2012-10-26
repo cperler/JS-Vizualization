@@ -1,0 +1,5 @@
+This is one of my attempts at a visualization framework, in this case using Javascript (with some help from an early version of Ext-JS).  The framework is based on prefuse.org, and you can see how it's used in app.js.  The sample application here will, with a bit of extra fluff, render a tree of nodes where each node can contain content and unique visual tweaks.  The rendering leverages VML or SVG, depending on what's available.  The framework allows for hooking up and responding to events, and animation actions (which could in theory lead to supporting a physics engine, for example).  I ended up canning work on this project because text rendering and animation was not performing fast enough, and ultimately I switched to a silverlight-light approach.
+
+See this blog post for more info: http://www.craigperler.com/blog/2011/09/26/evolution-of-digital-communications/
+
+And see this Silverlight app for the idea in action (just not using this library): http://www.craigperler.com/dev/postcurrent/v2/ForgedAheadTestPage.html
